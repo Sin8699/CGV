@@ -1,0 +1,205 @@
+.ContentDark {
+  background: black;
+  position: relative;
+}
+.ContentDark .title {
+  margin: 0 10px;
+  margin-top: -20px;
+  position: relative;
+    z-index: 2;
+}
+.ContentDark .img {
+  position: absolute;
+  z-index: 2;
+  left: 10px;
+  top: 10px;
+}
+.ContentDark .spider {
+  position: relative;
+}
+
+.ContentDark .spider::before{
+  content: "";
+  background: linear-gradient(0deg, rgba(29, 29, 39, 0) 0%, #121212 66.15%);
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  z-index: 1;
+}
+.ContentDark .spider::after{
+  content: "";
+  background: linear-gradient(180deg, rgba(29, 29, 39, 0) 0%, #121212 66.15%);
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.ContentDark .name {
+  font-family: Roboto;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.ContentDark .type {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #b0b0b0;
+}
+.ContentDark .star {
+  width: 102.05px;
+  height: 16.78px;
+}
+.ContentDark .col {
+  display: flex;
+  justify-content: space-around;
+}
+.ContentDark .col .year,
+.location,
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ContentDark .col .top {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #b0b0b0;
+}
+
+.ContentDark .col .botom {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  margin-top: 0;
+
+  color: #ffffff;
+}
+hr {
+  height: 0px;
+  width: 343px;
+  color: #2f2f2f;
+}
+.ContentDark .des {
+  margin: 0 10px;
+}
+.ContentDark .des p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.ContentDark .des div {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #b0b0b0;
+}
+
+.ContentDark .actions {
+  margin: auto;
+  max-width: 310px;
+}
+
+.ContentDark .actions img {
+  max-width: 310px;
+}
+.ContentDark .comment {
+  margin: 0 20px;
+}
+
+.ContentDark .comment p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.ContentDark .comment .contain {
+  display: flex;
+}
+
+.ContentDark .comment .content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+.ContentDark .comment .content p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+.ContentDark .comment .content img {
+  width: 62px;
+  height: 10.19px;
+}
+.ContentDark .comment .content .like {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #606060;
+}
+.ContentDark .comment .content .like img {
+  width: 10px;
+  height: 7px;
+  margin: 0 10px;
+}
+
+.ContentDark .BuyTicket {
+  width: 90%;
+  padding: 20px;
+}
+button {
+  border: 0px;
+  border-radius: 5px;
+  width: 343px;
+  height: 47px;
+  background: #ea5851;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}

@@ -1,0 +1,109 @@
+
+.HomeScreen .Header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.HomeScreen .Poster {
+    margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+.HomeScreen .Poster .title {
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0.0041em;
+  text-transform: capitalize;
+  margin: 10px;
+  font-weight: 700;
+  color: #000000;
+}
+.HomeScreen .Poster .containPos {
+  display: flex;
+}
+.HomeScreen .Poster .containPos .P2 {
+  height: 80%;
+}
+.HomeScreen .CoomingSoon {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+}
+.HomeScreen .CoomingSoon .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 10px;
+}
+.HomeScreen .CoomingSoon .title p {
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.35px;
+  color: #000000;
+}
+.HomeScreen .CoomingSoon .title span {
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  text-align: right;
+  letter-spacing: -0.41px;
+
+  color: #ee2e24;
+}
+.HomeScreen .CoomingSoon .containImg {
+  display: flex;
+}
+.HomeScreen .CoomingSoon .containImg img {
+  max-width: 120px;
+  border-radius: 5px;
+}
+
+.HomeScreen .MenuOffers {
+  display: flex;
+  flex-direction: column;
+}
+.HomeScreen .MenuOffers .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 10px;
+}
+.HomeScreen .MenuOffers .title p {
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.35px;
+  color: #000000;
+}
+.HomeScreen .MenuOffers .title span {
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  text-align: right;
+  letter-spacing: -0.41px;
+
+  color: #ee2e24;
+}
+.HomeScreen .MenuOffers .com1 {
+  display: flex;
+  flex-direction: column;
+}
+.HomeScreen .MenuOffers .com1 img{
+   height: 210px;
+  }
+.HomeScreen .MenuOffers .com1 .com1Title .name {
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height, or 120% */
+  letter-spacing: -0.24px;
+
+  color: #000000;
+}
+.HomeScreen .MenuOffers .com1 .com1Title .date {
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height, or 120% */
+  letter-spacing: 0.05px;
+
+  color: #999999;
+}
