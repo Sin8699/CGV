@@ -1,0 +1,12 @@
+.App {
+  width: 375px;
+  height: 600px;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: auto;
+  /* border: 15px solid black;
+  border-radius: 20px; */
+}
+
+.App::-webkit-scrollbar{display: none};
